@@ -27,6 +27,7 @@ if __name__ == "__main__":
     CHANNELS = 2
     RATE = 44100
 
+
     p = pyaudio.PyAudio()
 
     stream = p.open(format = FORMAT,
